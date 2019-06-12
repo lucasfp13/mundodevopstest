@@ -7,8 +7,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "lodash": "^4.17.11",
     "react": "16.8.3",
-    "react-native": "0.59.9"
+    "react-native": "0.59.9",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-vector-icons": "^6.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -20,5 +23,10 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
   }
 }
